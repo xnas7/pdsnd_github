@@ -190,4 +190,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print('Goodbye! Thanks for exploring the bikeshare data with us.')
+    print('Goodbye! Thanks for exploring the bikeshare data.')
