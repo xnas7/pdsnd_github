@@ -147,11 +147,10 @@ def user_stats(df):
     if 'Birth Year' in df:
         earliest_birth_year = df['Birth Year'].min()
         most_recent_birth_year = df['Birth Year'].max()
-        common_birth_year = df['Birth Year'].mode()[0]
-
+        most_common_birth_year = df['Birth Year'].mode()[0]
         print('Earliest birth year:', int(earliest_birth_year))
         print('Most recent birth year:', int(most_recent_birth_year))
-        print('Most common birth year:', int(common_birth_year))
+        print('Most common birth year:', int(most_common_birth_year))
     else:
         print('Birth year data is not available for this city.')
 
